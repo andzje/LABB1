@@ -1,3 +1,11 @@
 h1 {
     font-size: 100px;
 }
+
+/*petras cssbidrag. blev lite stort i kombination med ovanstående fontsize :) apropå bakgrundsbild så kan vi kanske prata om det i kombination med flexboxar?*/
+
+body { 
+    background-image: url(bilder/bakgrundglass.jpg);    background-size:cover; 
+
+    font-family: 'Cinzel', serif;
+    text-align: center;}
