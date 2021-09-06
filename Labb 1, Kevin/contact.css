@@ -1,0 +1,29 @@
+body{
+    color: white;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/11/02/12/food-5284892_1280.jpg);
+    background-color: #4c85db;
+    background-blend-mode: screen;
+    
+}
+
+.lefty{
+    margin-left: 10%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.center{
+    text-align:center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 25%;
+    
+}
