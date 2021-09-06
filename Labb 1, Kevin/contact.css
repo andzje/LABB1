@@ -9,21 +9,81 @@ body{
 }
 
 .lefty{
-    margin-left: 10%;
+    margin-left: 15%;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .center{
-    text-align:center;
+    margin-left: 15%;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-right: 5%;
-    margin-top: 7%;
 }
 
-img{
-    width: 80px;
-    height: 80px;
-    float: right;
-    margin-right: 25%;
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav il {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-footer {
+    background-blend-mode: screen;
+    padding: .25em 0;
+    position: absolute;
+    bottom: 0;
+    margin-left: 25%;
+   
+}
+
+.main-footer-container {
+    display: flex;
     
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.footer-nav il {
+    padding: 0 4em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.vitborder{
+    border: 0.5px solid white;
+}
+
+.höger{
+    float: right;
+    margin-right: 15%;
+    margin-top: 7%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
