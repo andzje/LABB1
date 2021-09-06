@@ -9,6 +9,13 @@ html, body {
     background-color:mintcream;
 }
 
+#kapetLogga {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 90%;
+}
+
 .nav ul {
     margin: 0;
 }
@@ -81,6 +88,7 @@ section {
     padding: .25em 0;
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .main-footer-container {
