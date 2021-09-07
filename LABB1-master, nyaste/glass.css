@@ -1,9 +1,14 @@
-/*body { 
-    background-image: url(bilder/bakgrundglass.jpg);    background-size:cover; 
+#info {
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+}
+.glassmeny{
+    color: #000;
+    font-size: 1.7em;
+}
 
-    font-family: 'Cinzel', serif;
-    text-align: center;}*/
-
+/*
     * {
         box-sizing: border-box;
         font-family: 'Quicksand', sans-serif;
@@ -59,17 +64,8 @@
         background-blend-mode: multiply;
         padding-bottom: 30px;
         background-size: cover;
-    }
-    
-    h1 {
-        text-align: center;
-    
-    
-    }
-    .glassmeny{
-        color: red;
-    }
-    
+    }  
+
    section {
         display: inline;
         text-align: center;

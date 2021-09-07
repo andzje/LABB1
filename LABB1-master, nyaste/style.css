@@ -13,7 +13,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     opacity: 90%;
-    margin-top: 3.5%;
+    margin-top: 2.7em;
 }
 .nav ul {
     margin: 0;
@@ -55,25 +55,10 @@ header {
     height: 300px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 100px;
-    color:rgb(255, 255, 255);
-}
-
-section {
-    display: inline;
-    text-align: center;
-}
-
 .logo {
     height: 40px;
 }
 
-.schedule {
-    display: flex;
-    justify-content: center;
-}
 
 .container {
     margin: 0 auto;
@@ -81,13 +66,20 @@ section {
     padding: 0 1.5em;
 }
 
+.winnerInfo {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .main-footer {
     background-image: url(bilder/header-background.jpg);
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
+    display: block;
+    overflow: hidden;
     padding: .25em 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .main-footer-container {
