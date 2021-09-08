@@ -22,6 +22,12 @@ input:focus{
     background-color: #e92424;
 }
 
+.map {
+    position: absolute;
+    left: 40%;
+    bottom: 20%;
+}
+
 #adressImg {
     display: block;
     margin-left: auto;

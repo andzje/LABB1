@@ -6,7 +6,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color:mintcream;
 }
 #kapetLogga {
     display: block;
@@ -77,9 +76,10 @@ header {
     background-blend-mode: multiply;
     display: block;
     overflow: hidden;
-    padding: .25em 0;
+    position: fixed;
     bottom: 0;
     width: 100vw;
+    margin-top: auto;
 }
 
 .main-footer-container {
@@ -98,4 +98,24 @@ header {
 .footer-nav img {
     width: 40px;
     height: 40px;
+}
+
+.main-content {
+    padding: 2em; 
+}
+
+.main-content-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main-content-container div {
+    padding: 0 4em;
+}
+
+.main-content-container img {
+    float: left;
+    height: 200px;
 }
