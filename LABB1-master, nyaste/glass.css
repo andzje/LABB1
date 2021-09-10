@@ -1,25 +1,21 @@
-/*body { 
-    background-image: url(bilder/bakgrundglass.jpg);    background-size:cover; 
-
-    font-family: 'Cinzel', serif;
-    text-align: center;}*/
-
-    * {
-        box-sizing: border-box;
-        font-family: 'Quicksand', sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
     }
     
     html, body {
         margin: 0;
         padding: 0;
-        background-color:mintcream;
+        background-color: mintcream;
     }
     
     #kapetLogga {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        opacity: 90%;
+        opacity: 60%;
+        margin-top: 3.5%;
     }
     
     .nav ul {
@@ -36,8 +32,6 @@
         color: white;
         text-decoration: none;
     }
-    
-    
     .main-nav {
         text-align: center;
         font-size: 1.1em;
@@ -55,36 +49,28 @@
     
     header {
         background-color: rgba(0, 0, 0, .6);
-        background-image: url(bilder/header-background.jpg);
+        background-image: url(bilder/bakgrundglass.jpg);
         background-blend-mode: multiply;
         padding-bottom: 30px;
         background-size: cover;
+        height: 300px;
+        
+    }  
+    
+    section {
+    display: inline;
+    text-align: center;
     }
-    
-    h1 {
-        text-align: center;
-    
-    
-    }
-    .glassmeny{
-        color: red;
-    }
-    
-   section {
-        display: inline;
-        text-align: center;
-    }
-    
-    
+
     .logo {
-        height: 40px;
+    height: 40px;
     }
-    
+
     .schedule {
-        display: flex;
-        justify-content: center;
-    }
-    
+    display: flex;
+    justify-content: center;
+    }  
+       
     .container {
         margin: 0 auto;
         max-width: 900px;
@@ -92,14 +78,16 @@
     }
     
     .main-footer {
-        background-image: url(bilder/header-background.jpg);
+        background-image: url(bilder/bakgrundglass.jpg);
         background-color: rgba(0, 0, 0, .6);
         background-blend-mode: multiply;
         padding: .25em 0;
         bottom: 0;
         width: 100%;
-    }
-    
+        background-size: cover;
+        position:fixed;
+    }    
+
     .main-footer-container {
         display: flex;
     }
