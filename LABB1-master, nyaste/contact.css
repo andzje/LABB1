@@ -1,3 +1,43 @@
+.lefty{
+    margin-left: 15%;
+    
+}
+
+.center{
+    margin-left: 15%;
+}
+
+.höger{
+    float: right;
+    margin-right: 15%;
+    margin-top: 3%;
+    
+}
+
+textarea:focus{
+    background-color: #eeff00;
+}
+
+input:focus{
+    background-color: #e92424;
+}
+
+.map {
+    position: absolute;
+    left: 40%;
+    bottom: 20%;
+}
+
+#adressImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/*
 * {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
@@ -16,27 +56,19 @@ html, body {
     margin-top: 3.5%;
 }
        
-    .kapet{
-        text-align: center;
-        font-size: 100px;
-        color:rgb(255, 255, 255); 
-    }
-    header {
-        background-color: rgba(0, 0, 0, .6);
-        background-image: url(bilder/header-background.jpg);
-        background-blend-mode: multiply;
-        padding-bottom: 30px;
-        background-size: cover;
-        height: 300px;
-    }
-.lefty{
-    margin-left: 15%;
-   
+.kapet{
+    text-align: center;
+    font-size: 100px;
+    color:rgb(255, 255, 255); 
 }
 
-.center{
-    margin-left: 15%;
-    
+header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(bilder/header-background.jpg);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+    background-size: cover;
+    height: 300px;
 }
 
 .nav ul {
@@ -53,7 +85,6 @@ html, body {
     color: white;
     text-decoration: none;
 }
-
 
 .main-nav {
     text-align: center;
@@ -99,16 +130,3 @@ html, body {
     height: 40px;
 }
 
-
-.höger{
-    float: right;
-    margin-right: 15%;
-    margin-top: 3%;
-    
-}
-textarea:focus{
-    background-color: #eeff00;
-    }
-     input:focus{
-         background-color: #e92424;
-     }

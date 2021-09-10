@@ -1,7 +1,16 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+#info {
     text-align: center;
+    color: #000;
+    font-size: 2em;
+}
+.glassmeny{
+    color: #000;
+    font-size: 1.7em;
+}
+
+* {
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
     }
     
     html, body {
@@ -53,13 +62,11 @@
         background-blend-mode: multiply;
         padding-bottom: 30px;
         background-size: cover;
-        height: 300px;
-        
     }  
-    
-    section {
-    display: inline;
-    text-align: center;
+
+   section {
+        display: inline;
+        text-align: center;
     }
 
     .logo {

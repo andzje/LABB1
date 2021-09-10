@@ -6,14 +6,13 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color:mintcream;
 }
 #kapetLogga {
     display: block;
     margin-left: auto;
     margin-right: auto;
     opacity: 90%;
-    margin-top: 3.5%;
+    margin-top: 2.7em;
 }
 .nav ul {
     margin: 0;
@@ -55,25 +54,10 @@ header {
     height: 300px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 100px;
-    color:rgb(255, 255, 255);
-}
-
-section {
-    display: inline;
-    text-align: center;
-}
-
 .logo {
     height: 40px;
 }
 
-.schedule {
-    display: flex;
-    justify-content: center;
-}
 
 .container {
     margin: 0 auto;
@@ -81,13 +65,21 @@ section {
     padding: 0 1.5em;
 }
 
+.winnerInfo {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .main-footer {
     background-image: url(bilder/header-background.jpg);
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
-    padding: .25em 0;
+    display: block;
+    overflow: hidden;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
+    margin-top: auto;
 }
 
 .main-footer-container {
@@ -106,4 +98,24 @@ section {
 .footer-nav img {
     width: 40px;
     height: 40px;
+}
+
+.main-content {
+    padding: 2em; 
+}
+
+.main-content-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main-content-container div {
+    padding: 0 4em;
+}
+
+.main-content-container img {
+    float: left;
+    height: 200px;
 }
